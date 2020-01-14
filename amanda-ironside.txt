@@ -11,12 +11,14 @@ Copy the questions below into the firt-lastname.txt file on your github repo - a
     HTML is used for the structure of websites. 
 
     3. What is an attribute and where do we put it? 
-    Attributes provide additional information about a portion of text on a website. We put it before and after the text.
+    Attributes provide additional information about a specific tag on a website. We put it in the opening tag. 
 
     4. What is the h1 tag used for? How many times should I use it on a page?
     The h1 tag is used for the most important heading on a page. It should only be used once on a page. 
-    
+
     5. Name two tags that have required attributes
+    Two tags that have required attributes are the <a> tag and <img> tag.
+    
     6. What do we put in the head of our HTML document? 
     7. What is an id? 
     8. What elements can I add an id to? 

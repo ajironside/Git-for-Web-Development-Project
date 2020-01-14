@@ -18,13 +18,25 @@ Copy the questions below into the firt-lastname.txt file on your github repo - a
 
     5. Name two tags that have required attributes
     Two tags that have required attributes are the <a> tag and <img> tag.
-    
+
     6. What do we put in the head of our HTML document? 
+    The head of an HTML document can include information like the title, navigation bar, style information, and links.
+
     7. What is an id? 
+    An id identifies a specific element so that it can be customized differently from other elements of the same type or in the same class. 
+
     8. What elements can I add an id to? 
+    I can add and id to any element, but I can only use an id once on a page. 
+
     9. How many times can I use the same id on a page? 
+    I can only use the same id once on a page.
+
     10. What is a class? 
+    A class is a designation given to a group of elements that are related to each other. 
+
     11. What elements can I add a class to? 
+    I can add a class to any group of elements I want to style in the same way. 
+    
     12. How many times can I use the same class on a page? 
     13. How do I get my link to open in a new tab?
     14. What is the alt attribute used for? 

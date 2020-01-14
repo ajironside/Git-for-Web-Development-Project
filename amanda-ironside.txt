@@ -109,14 +109,47 @@ Copy the questions below into the firt-lastname.txt file on your github repo - a
 
     30. How do I write a comment in CSS?
     /* comment here */
-    
+
     31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls 
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm 
+    You need to be careful because there are no safeguards in place that you have when working in a gui, like the "are you sure" prompt or the recycle bin.
+
     34. Why should I use version control? 
+    Version control is important to use to maintain a order when multiple people are working on one project, to have multiple save and return points to go back to, and to organize features or pages.
+
     35. How often should I commit to github?
+    I should commit to github whenever I make a chunk of progress, a tool that was broken is fixed, or at least every twenty minutes or so. 
+
     36. What is the command we would use to push our repo up to github? 
-    37. Walk me through Lambda's git flow. 
+    git push -u origin firstName-lastname
+
+    37. Walk me through Lambda's git flow.
+     1. Fork the project to create your own repo
+     2.Go into settings - collaborators - add collaborator and add TL to your project Fork
+     3. Clone your project repo using githubs "Clone or download button" 
+        a. press the green clone or download button
+        b. copy the https link to your clipboard
+        c.in git - cd into the directory that you want the clone <repo name> to go
+        d. use the command - git clone <https link from github for repo name> 
+     4. Then, cd <repo name> to go into the repo 
+     5. git checkout -b firstName-lastName to create a branch that you will modify
+     6. Work on project, adding and commiting changes as you go
+        a. git add . to add all new saved changes to repo
+        b. git commit -m'comment describing progress' to comment changes that you are committing
+        c. git push -u origin firstName-lastName to push all commits upstream from local machine to github
+     7. Once all work is committed and pushed upstream, go back to github to submit a pull request (PR) 
+        a. change the branch from 'master' to your branch 'firstName-lastName'
+        b. click on new pull request
+        c. click the dropdown that says 'base repository' and change it to be your forked repo
+        d. add your TL to the Reviewers section
+        e. submit pull request
+     8. DO NOT MERGE YOUR OWN PULL REQUEST - your TL will merge the pull request after they have done a review
 
 Stretch Questions
 

@@ -48,13 +48,30 @@ Copy the questions below into the firt-lastname.txt file on your github repo - a
 
     15. How do I reference an id?
     I can use the "#" symbol to reference an id.
-    
-    16. What is the difference between a section and a div
+
+    16. What is the difference between a section and a div?
+    A div is used to define a specific area of a document but does not provide any additional information about that block. A section tag provides meaning to the block of content (header, intro, content, footer, etc).
+
     17. What is CSS used for? 
+    CSS is used to style HTML text. 
+
     18. How to we select an element? Example - every h2 on the page
+    h2{
+
+    }
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    A class is used to group a collection of elements together and is preceded by a . in CSS, while an id is used to distinguish one element and is preceded by a # in CSS.
+    You might use a class when you are aligning text on a page.
+    You might use an id when you want to highlight a particular phrase or word in a different color. 
+
     20. How do we select classes in CSS?
+    .class{
+
+    }
+
     21. How do we select a p element with a single class of “human””?
+    
     22. What is a parent child selector? When would this be useful? 
     23. How do you select all links within a div with the class of sidebar?
     24. What is a pseudo selector?

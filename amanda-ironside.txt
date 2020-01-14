@@ -36,11 +36,19 @@ Copy the questions below into the firt-lastname.txt file on your github repo - a
 
     11. What elements can I add a class to? 
     I can add a class to any group of elements I want to style in the same way. 
-    
+
     12. How many times can I use the same class on a page? 
+    I can use the same class as many times as I want on a page.
+
     13. How do I get my link to open in a new tab?
+    I can get my link to open in a new tab by adding a target="_blank" attribute to the link.
+
     14. What is the alt attribute used for? 
+    the alt attrubute is used to provide text information about an image in case the browser does not display it. 
+
     15. How do I reference an id?
+    I can use the "#" symbol to reference an id.
+    
     16. What is the difference between a section and a div
     17. What is CSS used for? 
     18. How to we select an element? Example - every h2 on the page
